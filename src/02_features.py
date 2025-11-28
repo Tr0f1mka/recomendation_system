@@ -1,64 +1,27 @@
-# src/02_features_split.py
+# src/02_features_enhanced.py
 import pandas as pd
 import numpy as np
 import os
 from tqdm import tqdm
-from sklearn.model_selection import train_test_split
-import pickle
 
-def create_split_features():
-    """Создаем фичи с разделением на train/test"""
-    print("🎯 СОЗДАЕМ ФИЧИ С РАЗДЕЛЕНИЕМ НА TRAIN/TEST...")
-    
-    base_path = 'data/dataset/small'
-    
-    # 1. Загружаем ВСЕХ пользователей из marketplace
-    print("📥 Загружаем всех пользователей...")
-    all_users = load_all_users(base_path)
-    print(f"👥 Всего пользователей: {len(all_users)}")
-    
-    # 2. Разделяем пользователей на train/test
-    train_users, test_users = train_test_split(
-        all_users, test_size=0.2, random_state=42
-    )
-    
-    print(f"📚 Train пользователей: {len(train_users)}")
-    print(f"🧪 Test пользователей: {len(test_users)}")
-    
-    # 3. Создаем фичи РАЗДЕЛЬНО
-    print("\n🔨 Создаем фичи для TRAIN...")
-    train_features = create_features_for_users(train_users, base_path)
-    
-    print("\n🔨 Создаем фичи для TEST...")
-    test_features = create_features_for_users(test_users, base_path)
-    
-    # 4. Создаем целевую переменную
-    train_features = create_target_variable(train_features)
-    test_features = create_target_variable(test_features)
-    
-    # 5. Сохраняем раздельно
-    train_features.to_parquet('train_features.pq', index=False)
-    test_features.to_parquet('test_features.pq', index=False)
-    
-    # Сохраняем списки пользователей
-    with open('train_users.pkl', 'wb') as f:
-        pickle.dump(train_users, f)
-    with open('test_users.pkl', 'wb') as f:
-        pickle.dump(test_users, f)
-    
-    print(f"\n💾 СОХРАНЕНО:")
-    print(f"📚 Train: {len(train_features)} пользователей")
-    print(f"🧪 Test: {len(test_features)} пользователей")
-    print(f"📊 Распределение в train: {train_features['target_product'].value_counts().to_dict()}")
-    print(f"📊 Распределение в test: {test_features['target_product'].value_counts().to_dict()}")
-    
-    return train_features, test_features
+# Расширенный список продуктов банка
+BANK_PRODUCTS_ENHANCED = {
+    'consumer_loan': 'Потребительский кредит наличными',
+    'refinancing': 'Рефинансирование кредитов',
+    'mortgage': 'Ипотека',
+    'savings_account': 'Сберегательный счет',
+    'deposit_profitable': 'Вклад "ПСБ.Выгодный"',
+    'premium_card': 'Премиальная карта',
+    'credit_card_180': 'Кредитная карта "180 дней без %"',
+    'salary_card': 'Зарплатная карта',
+    'sports_card': 'Карта "Только вперёд"',
+    'pension_card': 'Пенсионная карта'
+}
 
-def load_all_users(base_path, max_users=5000):
-    """Загружаем всех пользователей из нескольких файлов"""
+def load_sample_users(events_path, max_users=5000):
+    """Загружаем пользователей из файлов"""
     users = set()
-    events_path = f'{base_path}/marketplace/events'
-    files = os.listdir(events_path)[:3]  # 3 файла для хорошего покрытия
+    files = os.listdir(events_path)[:3]  # 3 файла
     
     for file in tqdm(files, desc="Загрузка пользователей"):
         try:
@@ -70,31 +33,53 @@ def load_all_users(base_path, max_users=5000):
     
     return list(users)[:max_users]
 
-def create_features_for_users(user_list, base_path):
-    """Создаем фичи для списка пользователей"""
+def create_enhanced_features():
+    """Создаем фичи с расширенными продуктами"""
+    print("🎯 СОЗДАЕМ ФИЧИ С 10 КАТЕГОРИЯМИ ПРОДУКТОВ...")
+    
+    base_path = 'data/dataset/small'
+    
+    # Загружаем пользователей
+    market_users = load_sample_users(f'{base_path}/marketplace/events')
     features_data = []
     
-    for user_id in tqdm(user_list, desc="Создание фичей"):
+    for user_id in tqdm(market_users[:2000], desc="Расширенные фичи"):
         try:
             user_features = {'user_id': user_id}
             
             # Marketplace фичи
-            market_features = get_marketplace_features(user_id, base_path)
+            market_features = get_marketplace_features_enhanced(user_id, base_path)
             user_features.update(market_features)
             
             # Offers фичи
-            offers_features = get_offers_features(user_id, base_path)
+            offers_features = get_offers_features_enhanced(user_id, base_path)
             user_features.update(offers_features)
+            
+            # Retail фичи
+            retail_features = get_retail_features_enhanced(user_id, base_path)
+            user_features.update(retail_features)
             
             features_data.append(user_features)
             
-        except Exception:
+        except Exception as e:
             continue
     
-    return pd.DataFrame(features_data)
+    features_df = pd.DataFrame(features_data)
+    
+    # Создаем расширенную целевую переменную
+    features_df = create_enhanced_target(features_df)
+    
+    # Сохраняем
+    features_df.to_parquet('user_features_enhanced.pq', index=False)
+    
+    print(f"💾 Сохранено {len(features_df)} пользователей с 10 категориями")
+    print(f"📊 Распределение:")
+    print(features_df['target_product'].value_counts())
+    
+    return features_df
 
-def get_marketplace_features(user_id, base_path):
-    """Фичи из marketplace"""
+def get_marketplace_features_enhanced(user_id, base_path):
+    """Расширенные фичи из marketplace"""
     features = {}
     try:
         events_path = f'{base_path}/marketplace/events'
@@ -109,32 +94,57 @@ def get_marketplace_features(user_id, base_path):
         if all_user_events:
             user_data = pd.concat(all_user_events, ignore_index=True)
             
+            # Базовые фичи
             features['market_events'] = len(user_data)
             features['market_unique_items'] = user_data['item_id'].nunique()
             
+            # Действия
             action_counts = user_data['action_type'].value_counts()
             features['market_views'] = action_counts.get('view', 0)
             features['market_clicks'] = action_counts.get('click', 0) + action_counts.get('clickout', 0)
             features['market_likes'] = action_counts.get('like', 0)
             
+            # Поддомены
             subdomain_counts = user_data['subdomain'].value_counts()
             features['market_u2i'] = subdomain_counts.get('u2i', 0)
             features['market_search'] = subdomain_counts.get('search', 0)
+            features['market_catalog'] = subdomain_counts.get('catalog', 0)
             
-            # Engagement ratio
-            features['market_engagement_ratio'] = features['market_clicks'] / max(1, features['market_views'])
+            # Новые фичи для расширенной классификации
+            features['engagement_ratio'] = features['market_clicks'] / max(1, features['market_views'])
+            features['diversity_ratio'] = features['market_unique_items'] / max(1, features['market_events'])
+            
+            # Анализ интересов по item_id (упрощенный)
+            items = user_data['item_id'].astype(str)
+            features['tech_interest'] = items.str.contains('phone|mac|samsung|техник', case=False, na=False).sum()
+            features['home_interest'] = items.str.contains('home|house|мебель|кухн', case=False, na=False).sum()
+            features['sports_interest'] = items.str.contains('sport|спорт|фитнес', case=False, na=False).sum()
+            
+            # Нормализуем интересы
+            total_interest = features['tech_interest'] + features['home_interest'] + features['sports_interest']
+            if total_interest > 0:
+                features['tech_interest_ratio'] = features['tech_interest'] / total_interest
+                features['home_interest_ratio'] = features['home_interest'] / total_interest
+                features['sports_interest_ratio'] = features['sports_interest'] / total_interest
+            else:
+                features['tech_interest_ratio'] = 0
+                features['home_interest_ratio'] = 0
+                features['sports_interest_ratio'] = 0
     
-    except Exception:
+    except Exception as e:
+        # Заполняем значения по умолчанию
         features.update({
             'market_events': 0, 'market_unique_items': 0, 'market_views': 0,
             'market_clicks': 0, 'market_likes': 0, 'market_u2i': 0,
-            'market_search': 0, 'market_engagement_ratio': 0
+            'market_search': 0, 'market_catalog': 0, 'engagement_ratio': 0,
+            'diversity_ratio': 0, 'tech_interest_ratio': 0, 'home_interest_ratio': 0,
+            'sports_interest_ratio': 0
         })
     
     return features
 
-def get_offers_features(user_id, base_path):
-    """Фичи из offers"""
+def get_offers_features_enhanced(user_id, base_path):
+    """Расширенные фичи из offers"""
     features = {}
     try:
         events_path = f'{base_path}/offers/events'
@@ -158,34 +168,107 @@ def get_offers_features(user_id, base_path):
             features['offers_redirect'] = action_counts.get('redirect_to_partner', 0)
             features['offers_liked'] = action_counts.get('like', 0)
             features['offers_engagement'] = features['offers_shown'] + features['offers_redirect'] + features['offers_liked']
+            
+            # Новые метрики вовлеченности
+            features['offers_engagement_ratio'] = features['offers_engagement'] / max(1, features['offers_seen'])
+            features['offers_response_rate'] = features['offers_redirect'] / max(1, features['offers_shown'])
     
-    except Exception:
+    except Exception as e:
         features.update({
             'offers_seen': 0, 'offers_unique': 0, 'offers_seen_count': 0,
             'offers_shown': 0, 'offers_redirect': 0, 'offers_liked': 0,
-            'offers_engagement': 0
+            'offers_engagement': 0, 'offers_engagement_ratio': 0, 'offers_response_rate': 0
         })
     
     return features
 
-def create_target_variable(features):
-    """Создаем целевую переменную"""
-    # Более сложная логика чтобы избежать переобучения
+def get_retail_features_enhanced(user_id, base_path):
+    """Фичи из retail"""
+    features = {}
+    try:
+        events_path = f'{base_path}/retail/events'
+        files = os.listdir(events_path)[:1]
+        
+        user_events = []
+        for file in files:
+            df = pd.read_parquet(f'{events_path}/{file}')
+            user_df = df[df['user_id'] == user_id]
+            user_events.append(user_df)
+        
+        if user_events:
+            user_data = pd.concat(user_events, ignore_index=True)
+            
+            features['retail_events'] = len(user_data)
+            features['retail_unique_items'] = user_data['item_id'].nunique()
+            
+            action_counts = user_data['action_type'].value_counts()
+            features['retail_views'] = action_counts.get('view', 0)
+            features['retail_cart_adds'] = action_counts.get('added-to-cart', 0)
+            
+            # Показатель покупательской активности
+            features['retail_purchase_intent'] = features['retail_cart_adds'] / max(1, features['retail_views'])
+    
+    except Exception as e:
+        features.update({
+            'retail_events': 0, 'retail_unique_items': 0, 'retail_views': 0,
+            'retail_cart_adds': 0, 'retail_purchase_intent': 0
+        })
+    
+    return features
+
+def create_enhanced_target(features):
+    """Создаем расширенную целевую переменную с 10 категориями"""
+    print("🎯 Создаем 10 категорий продуктов...")
+    
+    # Сбрасываем все значения
+    features['target_product'] = 'savings_account'  # значение по умолчанию
+    
+    # СЛОЖНАЯ ЛОГИКА ДЛЯ 10 КАТЕГОРИЙ:
     conditions = [
-        # Кредитные продукты - высокая вовлеченность
-        (features['offers_engagement'] > 8) & (features['market_events'] > 80),
+        # 1. ПОТРЕБИТЕЛЬСКИЙ КРЕДИТ - высокая активность + вовлеченность
+        (features['market_events'] > 80) & (features['offers_engagement'] > 8),
         
-        # Дебетовые продукты - средняя активность  
-        (features['offers_seen'] > 15) & (features['market_events'] > 30),
+        # 2. РЕФИНАНСИРОВАНИЕ - средняя активность + высокая вовлеченность
+        (features['market_events'] > 50) & (features['offers_engagement_ratio'] > 0.3),
         
-        # Сбережения - низкая активность
-        (features['offers_seen'] <= 10)
+        # 3. ИПОТЕКА - интерес к товарам для дома
+        (features['home_interest_ratio'] > 0.6) & (features['market_events'] > 30),
+        
+        # 4. ПРЕМИУМ КАРТА - высокая активность + премиум поведение
+        (features['market_events'] > 100) & (features['engagement_ratio'] > 0.1),
+        
+        # 5. КРЕДИТНАЯ КАРТА 180 - активные покупки + техника
+        (features['tech_interest_ratio'] > 0.5) & (features['market_clicks'] > 10),
+        
+        # 6. ЗАРПЛАТНАЯ КАРТА - стабильная умеренная активность
+        (features['market_events'].between(30, 100)) & (features['diversity_ratio'] > 0.3),
+        
+        # 7. СПОРТИВНАЯ КАРТА - интерес к спорту
+        (features['sports_interest_ratio'] > 0.4) & (features['market_events'] > 20),
+        
+        # 8. ПЕНСИОННАЯ КАРТА - низкая активность
+        (features['market_events'] < 20) & (features['offers_seen'] < 5),
+        
+        # 9. ВКЛАД - умеренная активность + низкая вовлеченность
+        (features['market_events'].between(20, 60)) & (features['offers_engagement_ratio'] < 0.1),
     ]
     
-    choices = ['credit_card', 'debit_card', 'savings']
-    features['target_product'] = np.select(conditions, choices, default='debit_card')
+    choices = [
+        'consumer_loan',    # 1
+        'refinancing',      # 2  
+        'mortgage',         # 3
+        'premium_card',     # 4
+        'credit_card_180',  # 5
+        'salary_card',      # 6
+        'sports_card',      # 7
+        'pension_card',     # 8
+        'deposit_profitable' # 9
+    ]
+    
+    # 10. СБЕРЕГАТЕЛЬНЫЙ СЧЕТ - значение по умолчанию (не включаем в conditions)
+    features['target_product'] = np.select(conditions, choices, default='savings_account')
     
     return features
 
 if __name__ == "__main__":
-    train_features, test_features = create_split_features()
+    create_enhanced_features()
