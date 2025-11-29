@@ -1,0 +1,2788 @@
+ОТЧЕТ О СТРУКТУРЕ ДАННЫХ
+==================================================
+Поиск файлов в текущей структуре:
+
+❌ Папка не найдена: dataset/small
+❌ Папка не найдена: ../dataset/small
+❌ Папка не найдена: ./dataset/small
+✅ Папка найдена: data
+   Найдено файлов: 913
+📁 data/
+  📁 dataset/
+    📁 small/
+      📄 users.pq
+      📄 brands.pq
+      📁 offers/
+        📄 items.pq
+        📁 events/
+          📄 01190.pq
+          📄 01201.pq
+          📄 01250.pq
+          и тп...
+      📁 marketplace/
+        📄 items.pq
+        📁 events/
+          📄 01190.pq
+          📄 01201.pq
+          📄 01250.pq
+          📄 01132.pq
+          и тп...
+      📁 retail/
+        📄 items.pq
+        📁 events/
+          📄 01190.pq
+          📄 01201.pq
+          📄 01250.pq
+          📄 01132.pq
+          и тп...
+      📁 reviews/
+        📄 01190.pq
+        📄 01201.pq
+        📄 01250.pq
+        📄 01132.pq
+        и тп...
+
+
+ДЕТАЛЬНАЯ ИНФОРМАЦИЯ О НАЙДЕННЫХ ФАЙЛАХ:
+----------------------------------------
+
+📄 dataset/small/users.pq
+   Размер: 3500000 строк, 3 столбцов
+   Столбцы: ['user_id', 'socdem_cluster', 'region']
+
+📄 dataset/small/brands.pq - ошибка чтения: Expected all lists to be of size=300 but index 1 had size=0
+
+📄 dataset/small/offers/items.pq
+   Размер: 22368 строк, 3 столбцов
+   Столбцы: ['item_id', 'brand_id', 'embedding']
+
+📄 dataset/small/offers/events/01190.pq
+   Размер: 2362870 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01201.pq
+   Размер: 2424108 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01250.pq
+   Размер: 3091514 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01132.pq
+   Размер: 2564948 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01163.pq
+   Размер: 2206748 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01264.pq
+   Размер: 2924500 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01235.pq
+   Размер: 2082552 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01157.pq
+   Размер: 3799324 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01106.pq
+   Размер: 2062592 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01297.pq
+   Размер: 2584234 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01287.pq
+   Размер: 2798884 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01116.pq
+   Размер: 1634123 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01147.pq
+   Размер: 2078072 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01225.pq
+   Размер: 3586596 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01274.pq
+   Размер: 2712340 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01173.pq
+   Размер: 2135555 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01122.pq
+   Размер: 2053930 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01300.pq
+   Размер: 2660665 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01091.pq
+   Размер: 3917042 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01240.pq
+   Размер: 1978793 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01211.pq
+   Размер: 2866224 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01180.pq
+   Размер: 3258992 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01231.pq
+   Размер: 2937828 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01260.pq
+   Размер: 2744343 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01293.pq
+   Размер: 2642242 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01102.pq
+   Размер: 1898168 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01153.pq
+   Размер: 2293111 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01254.pq
+   Размер: 2978955 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01085.pq
+   Размер: 4424197 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01205.pq
+   Размер: 2333390 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01194.pq
+   Размер: 2977938 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01167.pq
+   Размер: 2472966 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01136.pq
+   Размер: 2368707 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01126.pq
+   Размер: 2281434 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01177.pq
+   Размер: 2653038 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01184.pq
+   Размер: 2093627 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01215.pq
+   Размер: 3001736 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01095.pq
+   Размер: 1478685 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01304.pq
+   Размер: 2818089 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01244.pq
+   Размер: 2854785 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01143.pq
+   Размер: 2248616 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01112.pq
+   Размер: 2245298 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01283.pq
+   Размер: 2703757 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01270.pq
+   Размер: 2930413 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01221.pq
+   Размер: 2516529 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01230.pq
+   Размер: 2827178 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01261.pq
+   Размер: 2763602 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01103.pq
+   Размер: 2036853 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01292.pq
+   Размер: 4363585 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01152.pq
+   Размер: 2444489 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01255.pq
+   Размер: 4556849 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01084.pq
+   Размер: 2724994 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01195.pq
+   Размер: 3439142 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01204.pq
+   Размер: 2313004 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01166.pq
+   Размер: 2694952 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01137.pq
+   Размер: 3323340 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01127.pq
+   Размер: 3465845 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01176.pq
+   Размер: 2198758 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01214.pq
+   Размер: 2558944 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01185.pq
+   Размер: 2437656 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01305.pq
+   Размер: 2807804 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01094.pq
+   Размер: 2238963 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01245.pq
+   Размер: 2876062 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01142.pq
+   Размер: 2201348 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01282.pq
+   Размер: 2605404 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01113.pq
+   Размер: 2134403 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01271.pq
+   Размер: 3030749 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01220.pq
+   Размер: 3296788 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01200.pq
+   Размер: 2559486 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01191.pq
+   Размер: 2182477 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01251.pq
+   Размер: 3444079 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01133.pq
+   Размер: 2382527 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01162.pq
+   Размер: 2094857 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01265.pq
+   Размер: 3248261 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01234.pq
+   Размер: 2197078 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01156.pq
+   Размер: 3824330 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01296.pq
+   Размер: 2249406 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01107.pq
+   Размер: 2030282 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01117.pq
+   Размер: 2030304 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01286.pq
+   Размер: 3520012 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01146.pq
+   Размер: 2422704 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01224.pq
+   Размер: 2000322 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01275.pq
+   Размер: 3093366 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01172.pq
+   Размер: 2064537 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01123.pq
+   Размер: 1779734 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01090.pq
+   Размер: 3405678 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01301.pq
+   Размер: 2665995 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01241.pq
+   Размер: 2393655 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01181.pq
+   Размер: 4555225 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01210.pq
+   Размер: 3282808 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01138.pq
+   Размер: 3914425 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01169.pq
+   Размер: 2202321 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01179.pq
+   Размер: 3645070 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01128.pq
+   Размер: 2783447 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01108.pq
+   Размер: 3719691 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01299.pq
+   Размер: 2673886 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01159.pq
+   Размер: 5210061 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01149.pq
+   Размер: 2160126 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01289.pq
+   Размер: 2416804 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01118.pq
+   Размер: 2104818 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01298.pq
+   Размер: 2907946 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01109.pq
+   Размер: 2085083 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01158.pq
+   Размер: 3393881 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01148.pq
+   Размер: 2025498 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01119.pq
+   Размер: 4314381 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01288.pq
+   Размер: 2263514 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01139.pq
+   Размер: 3076160 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01168.pq
+   Размер: 2312383 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01178.pq
+   Размер: 2466110 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01129.pq
+   Размер: 2847478 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01268.pq
+   Размер: 2855033 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01239.pq
+   Размер: 2019332 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01229.pq
+   Размер: 2519562 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01278.pq
+   Размер: 3794691 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01258.pq
+   Размер: 3214768 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01089.pq
+   Размер: 3060455 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01209.pq
+   Размер: 2618598 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01198.pq
+   Размер: 2296162 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01188.pq
+   Размер: 3276694 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01219.pq
+   Размер: 2843536 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01099.pq
+   Размер: 2789355 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01308.pq
+   Размер: 3383483 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01248.pq
+   Размер: 3511671 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01259.pq
+   Размер: 2754484 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01088.pq
+   Размер: 2740943 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01199.pq
+   Размер: 2829857 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01208.pq
+   Размер: 2740940 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01218.pq
+   Размер: 2837236 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01189.pq
+   Размер: 5202601 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01098.pq
+   Размер: 4555936 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01249.pq
+   Размер: 3064958 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01269.pq
+   Размер: 2898876 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01238.pq
+   Размер: 2539286 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01228.pq
+   Размер: 2325473 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01279.pq
+   Размер: 4455473 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01151.pq
+   Размер: 2680317 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01291.pq
+   Размер: 3029861 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01100.pq
+   Размер: 1888686 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01262.pq
+   Размер: 2635042 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01233.pq
+   Размер: 2185622 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01134.pq
+   Размер: 2189777 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01165.pq
+   Размер: 3394794 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01207.pq
+   Размер: 2580054 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01196.pq
+   Размер: 2774034 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01256.pq
+   Размер: 2722321 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01087.pq
+   Размер: 2536797 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01097.pq
+   Размер: 3865668 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01306.pq
+   Размер: 3170680 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01246.pq
+   Размер: 2576176 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01186.pq
+   Размер: 4323693 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01217.pq
+   Размер: 3273596 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01175.pq
+   Размер: 2030577 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01124.pq
+   Размер: 1922715 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01223.pq
+   Размер: 2522093 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01272.pq
+   Размер: 3162279 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01110.pq
+   Размер: 2164327 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01281.pq
+   Размер: 2540002 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01141.pq
+   Размер: 2297136 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01161.pq
+   Размер: 2336457 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01130.pq
+   Размер: 2629876 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01252.pq
+   Размер: 4912019 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01083.pq
+   Размер: 2597281 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01192.pq
+   Размер: 2370043 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01203.pq
+   Размер: 3507815 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01104.pq
+   Размер: 2363721 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01295.pq
+   Размер: 2163889 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01155.pq
+   Размер: 3518973 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01237.pq
+   Размер: 3304479 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01266.pq
+   Размер: 3347552 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01276.pq
+   Размер: 3392947 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01227.pq
+   Размер: 2599407 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01145.pq
+   Размер: 2414057 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01285.pq
+   Размер: 3112940 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01114.pq
+   Размер: 2461861 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01213.pq
+   Размер: 2589820 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01182.pq
+   Размер: 2516294 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01302.pq
+   Размер: 2338942 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01093.pq
+   Размер: 2607496 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01242.pq
+   Размер: 4629122 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01120.pq
+   Размер: 2055162 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01171.pq
+   Размер: 3485954 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01160.pq
+   Размер: 2459834 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01131.pq
+   Размер: 2921403 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01253.pq
+   Размер: 2860972 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01082.pq
+   Размер: 2572392 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01202.pq
+   Размер: 2154312 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01193.pq
+   Размер: 3087285 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01294.pq
+   Размер: 2498090 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01105.pq
+   Размер: 2508168 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01154.pq
+   Размер: 2320713 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01236.pq
+   Размер: 2438919 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01267.pq
+   Размер: 3375726 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01277.pq
+   Размер: 4072682 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01226.pq
+   Размер: 2235123 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01144.pq
+   Размер: 4002804 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01115.pq
+   Размер: 2145402 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01284.pq
+   Размер: 2412844 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01183.pq
+   Размер: 2020148 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01212.pq
+   Размер: 2815352 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01092.pq
+   Размер: 2648152 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01303.pq
+   Размер: 2686821 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01243.pq
+   Размер: 2644240 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01121.pq
+   Размер: 2064359 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01170.pq
+   Размер: 2367108 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01150.pq
+   Размер: 2784756 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01101.pq
+   Размер: 1976891 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01290.pq
+   Размер: 2608277 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01263.pq
+   Размер: 2600288 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01232.pq
+   Размер: 2236811 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01135.pq
+   Размер: 2119990 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01164.pq
+   Размер: 2888541 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01197.pq
+   Размер: 2506436 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01206.pq
+   Размер: 2671652 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01257.pq
+   Размер: 3147093 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01086.pq
+   Размер: 2495662 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01307.pq
+   Размер: 2794652 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01096.pq
+   Размер: 2526627 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01247.pq
+   Размер: 3394742 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01216.pq
+   Размер: 4319262 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01187.pq
+   Размер: 4231730 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01174.pq
+   Размер: 2222252 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01125.pq
+   Размер: 2421345 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01222.pq
+   Размер: 2580765 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01273.pq
+   Размер: 3144153 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01280.pq
+   Размер: 3445030 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01111.pq
+   Размер: 2076130 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/offers/events/01140.pq
+   Размер: 2875965 строк, 4 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'action_type']
+
+📄 dataset/small/marketplace/items.pq - ошибка чтения: Expected all lists to be of size=300 but index 2417 had size=0
+
+📄 dataset/small/marketplace/events/01190.pq
+   Размер: 530868 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01201.pq
+   Размер: 544578 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01250.pq
+   Размер: 672535 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01132.pq
+   Размер: 546849 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01163.pq
+   Размер: 513275 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01264.pq
+   Размер: 701438 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01235.pq
+   Размер: 728837 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01157.pq
+   Размер: 585886 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01106.pq
+   Размер: 465030 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01297.pq
+   Размер: 497429 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01287.pq
+   Размер: 670769 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01116.pq
+   Размер: 425481 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01147.pq
+   Размер: 602318 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01225.pq
+   Размер: 585743 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01274.pq
+   Размер: 703796 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01173.pq
+   Размер: 512782 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01122.pq
+   Размер: 450894 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01300.pq
+   Размер: 482117 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01091.pq
+   Размер: 529684 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01240.pq
+   Размер: 566157 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01211.pq
+   Размер: 647139 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01180.pq
+   Размер: 528479 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01231.pq
+   Размер: 642296 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01260.pq
+   Размер: 593377 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01293.pq
+   Размер: 505946 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01102.pq
+   Размер: 429125 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01153.pq
+   Размер: 573408 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01254.pq
+   Размер: 629322 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01085.pq
+   Размер: 494873 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01205.pq
+   Размер: 526553 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01194.pq
+   Размер: 554750 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01167.pq
+   Размер: 507859 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01136.pq
+   Размер: 535986 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01126.pq
+   Размер: 476822 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01177.pq
+   Размер: 458210 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01184.pq
+   Размер: 536856 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01215.pq
+   Размер: 747487 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01095.pq
+   Размер: 319931 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01304.pq
+   Размер: 575631 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01244.pq
+   Размер: 739918 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01143.pq
+   Размер: 527415 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01112.pq
+   Размер: 430239 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01283.pq
+   Размер: 786427 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01270.pq
+   Размер: 731438 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01221.pq
+   Размер: 717020 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01230.pq
+   Размер: 694012 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01261.pq
+   Размер: 656740 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01103.pq
+   Размер: 457407 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01292.pq
+   Размер: 606814 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01152.pq
+   Размер: 607111 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01255.pq
+   Размер: 655210 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01084.pq
+   Размер: 534733 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01195.pq
+   Размер: 642313 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01204.pq
+   Размер: 551276 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01166.pq
+   Размер: 514368 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01137.pq
+   Размер: 495432 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01127.pq
+   Размер: 511440 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01176.pq
+   Размер: 452274 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01214.pq
+   Размер: 764556 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01185.pq
+   Размер: 570385 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01305.pq
+   Размер: 528457 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01094.pq
+   Размер: 472500 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01245.pq
+   Размер: 709165 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01142.pq
+   Размер: 495910 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01282.pq
+   Размер: 725992 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01113.pq
+   Размер: 408140 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01271.pq
+   Размер: 644451 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01220.pq
+   Размер: 767522 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01200.pq
+   Размер: 606013 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01191.pq
+   Размер: 533518 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01251.pq
+   Размер: 712697 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01133.pq
+   Размер: 499778 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01162.pq
+   Размер: 494383 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01265.pq
+   Размер: 664837 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01234.pq
+   Размер: 586626 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01156.pq
+   Размер: 549614 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01296.pq
+   Размер: 444779 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01107.pq
+   Размер: 407850 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01117.pq
+   Размер: 432365 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01286.pq
+   Размер: 747455 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01146.pq
+   Размер: 658102 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01224.pq
+   Размер: 493926 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01275.pq
+   Размер: 779592 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01172.pq
+   Размер: 480859 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01123.pq
+   Размер: 450988 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01090.pq
+   Размер: 520180 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01301.pq
+   Размер: 498383 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01241.pq
+   Размер: 626603 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01181.pq
+   Размер: 506219 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01210.pq
+   Размер: 643309 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01138.pq
+   Размер: 518312 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01169.pq
+   Размер: 484764 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01179.pq
+   Размер: 527981 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01128.pq
+   Размер: 544845 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01108.pq
+   Размер: 436863 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01299.pq
+   Размер: 484884 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01159.pq
+   Размер: 569198 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01149.pq
+   Размер: 506733 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01289.pq
+   Размер: 639989 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01118.pq
+   Размер: 416898 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01298.pq
+   Размер: 544327 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01109.pq
+   Размер: 413255 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01158.pq
+   Размер: 582757 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01148.pq
+   Размер: 577250 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01119.pq
+   Размер: 424437 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01288.pq
+   Размер: 593215 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01139.pq
+   Размер: 526254 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01168.pq
+   Размер: 508261 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01178.pq
+   Размер: 467194 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01129.pq
+   Размер: 537113 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01268.pq
+   Размер: 674094 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01239.pq
+   Размер: 566593 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01229.pq
+   Размер: 737466 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01278.pq
+   Размер: 816065 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01258.pq
+   Размер: 633814 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01089.pq
+   Размер: 516794 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01209.pq
+   Размер: 625840 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01198.pq
+   Размер: 521893 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01188.pq
+   Размер: 563383 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01219.pq
+   Размер: 694979 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01099.pq
+   Размер: 465841 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01308.pq
+   Размер: 533354 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01248.pq
+   Размер: 727880 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01259.pq
+   Размер: 617835 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01088.pq
+   Размер: 459628 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01199.pq
+   Размер: 557791 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01208.pq
+   Размер: 622333 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01218.pq
+   Размер: 684196 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01189.pq
+   Размер: 550315 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01098.pq
+   Размер: 484006 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01249.pq
+   Размер: 650197 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01269.pq
+   Размер: 712746 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01238.pq
+   Размер: 654429 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01228.pq
+   Размер: 750245 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01279.pq
+   Размер: 801109 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01151.pq
+   Размер: 573500 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01291.pq
+   Размер: 726904 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01100.pq
+   Размер: 449975 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01262.pq
+   Размер: 708620 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01233.pq
+   Размер: 661295 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01134.pq
+   Размер: 482092 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01165.pq
+   Размер: 556092 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01207.pq
+   Размер: 585040 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01196.pq
+   Размер: 578550 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01256.pq
+   Размер: 712793 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01087.pq
+   Размер: 494059 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01097.pq
+   Размер: 467347 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01306.pq
+   Размер: 531450 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01246.pq
+   Размер: 662713 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01186.pq
+   Размер: 644520 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01217.pq
+   Размер: 739314 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01175.pq
+   Размер: 476414 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01124.pq
+   Размер: 465024 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01223.pq
+   Размер: 639471 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01272.pq
+   Размер: 444715 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01110.pq
+   Размер: 452254 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01281.pq
+   Размер: 686210 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01141.pq
+   Размер: 495965 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01161.pq
+   Размер: 522803 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01130.pq
+   Размер: 504465 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01252.pq
+   Размер: 663726 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01083.pq
+   Размер: 511972 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01192.pq
+   Размер: 532201 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01203.pq
+   Размер: 832006 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01104.pq
+   Размер: 488602 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01295.pq
+   Размер: 419827 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01155.pq
+   Размер: 585072 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01237.pq
+   Размер: 701896 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01266.pq
+   Размер: 706783 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01276.pq
+   Размер: 632090 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01227.pq
+   Размер: 693526 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01145.pq
+   Размер: 568443 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01285.pq
+   Размер: 750595 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01114.pq
+   Размер: 399836 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01213.pq
+   Размер: 766690 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01182.pq
+   Размер: 536214 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01302.pq
+   Размер: 455416 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01093.pq
+   Размер: 490054 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01242.pq
+   Размер: 663561 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01120.pq
+   Размер: 437999 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01171.pq
+   Размер: 496462 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01160.pq
+   Размер: 531642 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01131.pq
+   Размер: 547850 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01253.pq
+   Размер: 589049 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01082.pq
+   Размер: 500002 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01202.pq
+   Размер: 506671 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01193.pq
+   Размер: 545235 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01294.pq
+   Размер: 450086 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01105.pq
+   Размер: 509047 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01154.pq
+   Размер: 600825 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01236.pq
+   Размер: 701678 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01267.pq
+   Размер: 700655 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01277.pq
+   Размер: 868071 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01226.pq
+   Размер: 634160 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01144.pq
+   Размер: 532672 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01115.pq
+   Размер: 440356 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01284.pq
+   Размер: 781753 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01183.pq
+   Размер: 571990 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01212.pq
+   Размер: 663704 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01092.pq
+   Размер: 503549 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01303.pq
+   Размер: 476644 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01243.pq
+   Размер: 718704 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01121.pq
+   Размер: 472528 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01170.pq
+   Размер: 479025 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01150.pq
+   Размер: 530803 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01101.pq
+   Размер: 428093 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01290.pq
+   Размер: 678499 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01263.pq
+   Размер: 669515 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01232.pq
+   Размер: 601952 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01135.pq
+   Размер: 471370 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01164.pq
+   Размер: 546299 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01197.pq
+   Размер: 547729 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01206.pq
+   Размер: 568390 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01257.pq
+   Размер: 740712 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01086.pq
+   Размер: 519995 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01307.pq
+   Размер: 539733 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01096.pq
+   Размер: 421482 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01247.pq
+   Размер: 724120 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01216.pq
+   Размер: 827799 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01187.pq
+   Размер: 572059 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01174.pq
+   Размер: 531443 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01125.pq
+   Размер: 466959 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01222.pq
+   Размер: 690400 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01273.pq
+   Размер: 607969 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01280.pq
+   Размер: 626210 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01111.pq
+   Размер: 439215 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/marketplace/events/01140.pq
+   Размер: 511306 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/items.pq
+   Размер: 250171 строк, 6 столбцов
+   Столбцы: ['item_id', 'brand_id', 'category', 'subcategory', 'price', 'embedding']
+
+📄 dataset/small/retail/events/01190.pq
+   Размер: 881955 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01201.pq
+   Размер: 1000978 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01250.pq
+   Размер: 1784986 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01132.pq
+   Размер: 539119 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01163.pq
+   Размер: 529028 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01264.pq
+   Размер: 1504135 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01235.pq
+   Размер: 858452 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01157.pq
+   Размер: 289087 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01106.pq
+   Размер: 636552 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01297.pq
+   Размер: 1369417 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01287.pq
+   Размер: 1478195 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01116.pq
+   Размер: 609193 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01147.pq
+   Размер: 319905 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01225.pq
+   Размер: 2578786 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01274.pq
+   Размер: 1497951 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01173.pq
+   Размер: 153861 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01122.pq
+   Размер: 689013 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01300.pq
+   Размер: 1771013 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01091.pq
+   Размер: 416704 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01240.pq
+   Размер: 1942009 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01211.pq
+   Размер: 2320026 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01180.pq
+   Размер: 357956 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01231.pq
+   Размер: 1277252 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01260.pq
+   Размер: 1946851 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01293.pq
+   Размер: 1067279 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01102.pq
+   Размер: 476297 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01153.pq
+   Размер: 563047 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01254.pq
+   Размер: 2932587 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01085.pq
+   Размер: 560098 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01205.pq
+   Размер: 1023458 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01194.pq
+   Размер: 394590 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01167.pq
+   Размер: 198956 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01136.pq
+   Размер: 772480 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01126.pq
+   Размер: 671025 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01177.pq
+   Размер: 325465 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01184.pq
+   Размер: 291736 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01215.pq
+   Размер: 2460043 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01095.pq
+   Размер: 339895 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01304.pq
+   Размер: 1619107 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01244.pq
+   Размер: 1449236 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01143.pq
+   Размер: 559050 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01112.pq
+   Размер: 596199 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01283.pq
+   Размер: 796567 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01270.pq
+   Размер: 685924 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01221.pq
+   Размер: 1238452 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01230.pq
+   Размер: 1517102 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01261.pq
+   Размер: 3032614 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01103.pq
+   Размер: 344479 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01292.pq
+   Размер: 1372930 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01152.pq
+   Размер: 492776 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01255.pq
+   Размер: 1709797 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01084.pq
+   Размер: 211742 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01195.pq
+   Размер: 660878 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01204.pq
+   Размер: 846535 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01166.pq
+   Размер: 586777 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01137.pq
+   Размер: 879813 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01127.pq
+   Размер: 564848 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01176.pq
+   Размер: 263670 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01214.pq
+   Размер: 1628291 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01185.pq
+   Размер: 222112 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01305.pq
+   Размер: 1268366 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01094.pq
+   Размер: 528519 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01245.pq
+   Размер: 1556667 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01142.pq
+   Размер: 763343 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01282.pq
+   Размер: 1931109 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01113.pq
+   Размер: 441761 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01271.pq
+   Размер: 1216419 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01220.pq
+   Размер: 2106650 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01200.pq
+   Размер: 746000 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01191.pq
+   Размер: 771024 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01251.pq
+   Размер: 1300995 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01133.pq
+   Размер: 886300 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01162.pq
+   Размер: 406705 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01265.pq
+   Размер: 1374268 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01234.pq
+   Размер: 1478564 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01156.pq
+   Размер: 207913 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01296.pq
+   Размер: 2072837 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01107.pq
+   Размер: 410572 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01117.pq
+   Размер: 589521 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01286.pq
+   Размер: 1947756 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01146.pq
+   Размер: 483389 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01224.pq
+   Размер: 1886657 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01275.pq
+   Размер: 2384504 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01172.pq
+   Размер: 415583 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01123.pq
+   Размер: 837726 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01090.pq
+   Размер: 385109 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01301.pq
+   Размер: 1439993 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01241.pq
+   Размер: 1094398 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01181.pq
+   Размер: 398913 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01210.pq
+   Размер: 1655952 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01138.pq
+   Размер: 586429 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01169.pq
+   Размер: 543048 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01179.pq
+   Размер: 564032 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01128.pq
+   Размер: 717749 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01108.pq
+   Размер: 235020 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01299.pq
+   Размер: 1748723 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01159.pq
+   Размер: 655696 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01149.pq
+   Размер: 370986 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01289.pq
+   Размер: 2364568 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01118.pq
+   Размер: 483711 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01298.pq
+   Размер: 1436885 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01109.pq
+   Размер: 314818 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01158.pq
+   Размер: 186888 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01148.pq
+   Размер: 197294 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01119.pq
+   Размер: 729936 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01288.pq
+   Размер: 2008425 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01139.pq
+   Размер: 720483 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01168.pq
+   Размер: 221981 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01178.pq
+   Размер: 307795 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01129.pq
+   Размер: 687929 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01268.pq
+   Размер: 1981731 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01239.pq
+   Размер: 1063058 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01229.pq
+   Размер: 1823214 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01278.pq
+   Размер: 1080916 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01258.pq
+   Размер: 1920194 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01089.pq
+   Размер: 440787 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01209.pq
+   Размер: 1166709 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01198.pq
+   Размер: 1216976 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01188.pq
+   Размер: 194890 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01219.pq
+   Размер: 2615778 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01099.pq
+   Размер: 696678 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01308.pq
+   Размер: 1238054 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01248.pq
+   Размер: 1310099 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01259.pq
+   Размер: 1608830 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01088.pq
+   Размер: 540385 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01199.pq
+   Размер: 773586 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01208.pq
+   Размер: 768212 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01218.pq
+   Размер: 3023349 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01189.pq
+   Размер: 426110 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01098.pq
+   Размер: 420493 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01249.pq
+   Размер: 1264749 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01269.pq
+   Размер: 1501169 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01238.pq
+   Размер: 998249 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01228.pq
+   Размер: 1925342 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01279.pq
+   Размер: 1394539 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01151.pq
+   Размер: 353158 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01291.pq
+   Размер: 1155654 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01100.pq
+   Размер: 433563 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01262.pq
+   Размер: 1285135 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01233.pq
+   Размер: 1985385 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01134.pq
+   Размер: 640441 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01165.pq
+   Размер: 363080 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01207.pq
+   Размер: 1013206 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01196.pq
+   Размер: 1016878 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01256.pq
+   Размер: 857549 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01087.pq
+   Размер: 453250 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01097.pq
+   Размер: 438369 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01306.pq
+   Размер: 2098660 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01246.pq
+   Размер: 1842787 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01186.pq
+   Размер: 131002 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01217.pq
+   Размер: 2970945 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01175.pq
+   Размер: 223000 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01124.pq
+   Размер: 587675 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01223.pq
+   Размер: 2194945 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01272.pq
+   Размер: 1680626 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01110.pq
+   Размер: 542800 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01281.pq
+   Размер: 1648781 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01141.pq
+   Размер: 889631 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01161.pq
+   Размер: 210399 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01130.pq
+   Размер: 923222 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01252.pq
+   Размер: 1621270 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01083.pq
+   Размер: 415720 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01192.pq
+   Размер: 770384 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01203.pq
+   Размер: 934882 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01104.pq
+   Размер: 351941 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01295.pq
+   Размер: 1575359 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01155.pq
+   Размер: 318553 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01237.pq
+   Размер: 1410669 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01266.pq
+   Размер: 1691415 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01276.pq
+   Размер: 2232631 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01227.pq
+   Размер: 2076916 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01145.pq
+   Размер: 515995 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01285.pq
+   Размер: 1086429 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01114.pq
+   Размер: 431086 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01213.pq
+   Размер: 1973038 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01182.pq
+   Размер: 289629 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01302.pq
+   Размер: 1852739 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01093.pq
+   Размер: 404334 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01242.pq
+   Размер: 1035080 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01120.pq
+   Размер: 510681 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01171.pq
+   Размер: 343672 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01160.pq
+   Размер: 526631 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01131.pq
+   Размер: 712820 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01253.pq
+   Размер: 2060961 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01082.pq
+   Размер: 342382 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01202.pq
+   Размер: 881314 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01193.pq
+   Размер: 546327 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01294.pq
+   Размер: 1624026 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01105.pq
+   Размер: 670874 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01154.pq
+   Размер: 273998 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01236.pq
+   Размер: 1127128 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01267.pq
+   Размер: 1376772 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01277.pq
+   Размер: 1600226 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01226.pq
+   Размер: 2372079 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01144.pq
+   Размер: 774141 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01115.pq
+   Размер: 458981 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01284.pq
+   Размер: 1606091 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01183.pq
+   Размер: 182479 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01212.pq
+   Размер: 2426778 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01092.pq
+   Размер: 569524 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01303.pq
+   Размер: 2257682 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01243.pq
+   Размер: 1327692 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01121.pq
+   Размер: 1023891 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01170.pq
+   Размер: 271406 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01150.pq
+   Размер: 300394 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01101.pq
+   Размер: 534770 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01290.pq
+   Размер: 1118820 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01263.pq
+   Размер: 1615307 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01232.pq
+   Размер: 1556360 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01135.pq
+   Размер: 524280 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01164.pq
+   Размер: 287535 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01197.pq
+   Размер: 1433724 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01206.pq
+   Размер: 606116 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01257.pq
+   Размер: 1391372 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01086.pq
+   Размер: 362153 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01307.pq
+   Размер: 1574379 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01096.pq
+   Размер: 458653 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01247.pq
+   Размер: 2499242 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01216.pq
+   Размер: 2994892 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01187.pq
+   Размер: 486685 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01174.pq
+   Размер: 283922 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01125.pq
+   Размер: 660296 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01222.pq
+   Размер: 1491075 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01273.pq
+   Размер: 1466028 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01280.pq
+   Размер: 1452306 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01111.pq
+   Размер: 387475 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+
+📄 dataset/small/retail/events/01140.pq
+   Размер: 624390 строк, 6 столбцов
+   Столбцы: ['timestamp', 'user_id', 'item_id', 'subdomain', 'action_type', 'os']
+

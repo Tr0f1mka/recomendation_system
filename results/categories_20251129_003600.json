@@ -1,0 +1,1930 @@
+{
+  "existing_categories": {
+    "stats": [
+      {
+        "category": "Foodstuffs and Beverages",
+        "item_count": 160128,
+        "avg_price": -3.98933110084902,
+        "price_std": 1.2332235546490469,
+        "subcategories": [
+          "Sweet Desserts and Confectionery",
+          "Frozen Food Products",
+          "Ready-to-Eat Food Products",
+          "Bakery Products",
+          "Fresh Vegetables, Fruits, and Greens",
+          "Snacks and Munchies",
+          "Cheese Products",
+          "Beverages: Tea, Coffee, Cocoa",
+          "Dairy Products and Eggs",
+          "Seafood and Fish",
+          "Long-Term Storage Foods and Canned Goods",
+          "Grains, Pasta, and Flour Products",
+          "Beverages and Drinks",
+          "Meat and Sausage Products",
+          "Meat, Poultry, and Semi-Finished Products",
+          "Culinary Additives and Seasonings",
+          "Healthy and Dietary Foods",
+          "Alcoholic Beverages and Related Products"
+        ]
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "item_count": 22998,
+        "avg_price": -3.2509466776369536,
+        "price_std": 0.9553893452908828,
+        "subcategories": [
+          "Personal Hygiene Products",
+          "Image Creation Cosmetics",
+          "Perfumes and Aromatic Products",
+          "Body Skin Hygiene and Care Products",
+          "Nail and Foot Care",
+          "Dental and Gum Hygiene Products",
+          "Facial Cosmetics and Care Products",
+          "Hair Care Products",
+          "Men's Grooming Products"
+        ]
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "item_count": 17738,
+        "avg_price": -3.42981698343139,
+        "price_std": 1.5907607111084916,
+        "subcategories": [
+          "Storage and Transport Containers",
+          "Kitchen Utensils and Cookware",
+          "Flowers and Plants",
+          "Decorative Items",
+          "Garden, Vegetable Garden, and Country House Supplies",
+          "Fabric Products and Textiles",
+          "Lamps and Lighting Fixtures",
+          "Sauna and Steam Bath Supplies"
+        ]
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "item_count": 8339,
+        "avg_price": -3.4438856500470605,
+        "price_std": 1.5437845679516549,
+        "subcategories": [
+          "Food Products",
+          "Children's Games and Toys",
+          "Diapers and Hygiene Products",
+          "Creative Kits for Children",
+          "Active Recreation and Travel Goods",
+          "Products and Accessories for Pregnant Women and Mothers"
+        ]
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "item_count": 7731,
+        "avg_price": -3.3169565061252047,
+        "price_std": 1.1208789966614052,
+        "subcategories": [
+          "Cleaning and Detergent Products",
+          "Laundry Detergents and Cleaning Products",
+          "Air Fresheners and Odor Neutralizers",
+          "Body Care Cosmetics and Products",
+          "Pest and Insect Control Products",
+          "Dishwasher Detergents"
+        ]
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "item_count": 4162,
+        "avg_price": -3.3495435380765337,
+        "price_std": 0.9925418239922627,
+        "subcategories": [
+          "Women's Clothing",
+          "Girls' Children's Clothing",
+          "Men's Clothing",
+          "Boys' Children's Clothing",
+          "Professional and Specialized Uniforms",
+          "Infant Clothing"
+        ]
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "item_count": 3710,
+        "avg_price": -4.03854747455448,
+        "price_std": 1.5998343038104974,
+        "subcategories": [
+          "Cat Supplies",
+          "Dog Supplies",
+          "Rodent and Ferret Supplies",
+          "Bird Supplies",
+          "Aquarium Fish and Reptile Supplies",
+          "Veterinary Medications and Products"
+        ]
+      },
+      {
+        "category": "Other",
+        "item_count": 3155,
+        "avg_price": -3.608832763797444,
+        "price_std": 1.5021750267820415,
+        "subcategories": [
+          "Other"
+        ]
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "item_count": 2983,
+        "avg_price": -4.648859614916985,
+        "price_std": 1.0622656609178551,
+        "subcategories": [
+          "Stationery Paper",
+          "Pens, Pencils, and Writing Materials",
+          "Paper Products and Stationery",
+          "Office Stationery Supplies",
+          "Stationery Folders, Files, and Covers",
+          "Drafting Tools",
+          "Educational and Office Boards",
+          "Document and Business Card Organizers"
+        ]
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "item_count": 1810,
+        "avg_price": -3.008139078867544,
+        "price_std": 1.6147714582495019,
+        "subcategories": [
+          "Hair Styling Products and Accessories",
+          "Accessories for Storing Small Items and Documents",
+          "Bags, Backpacks, and Travel Accessories",
+          "Eyeglasses and Accessories",
+          "Hats, Scarves, and Shawls",
+          "Gloves, Mittens, and Accessories",
+          "Jewelry and Costume Jewelry",
+          "Business Accessories",
+          "Umbrellas and Accessories",
+          "Clothing Accessories",
+          "Wrist, Wall, and Other Watches"
+        ]
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "item_count": 1289,
+        "avg_price": -2.2999646381274035,
+        "price_std": 1.9963618511346017,
+        "subcategories": [
+          "Protein Supplements and Sports Nutrition",
+          "Water Sports and Recreational Products",
+          "Bicycles and Cycling Accessories",
+          "Tourist Gear and Active Recreation",
+          "Running Gear",
+          "Scooters",
+          "Sports Equipment",
+          "Workout and Yoga Equipment",
+          "Racquet Sports Equipment",
+          "Roller Skates and Related Products",
+          "Sports Equipment and Weights",
+          "Sports Protection and Gear",
+          "Fishing and Hunting Supplies",
+          "Sports Play Complexes",
+          "Skateboards and Accessories"
+        ]
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "item_count": 1252,
+        "avg_price": -3.3475114292819987,
+        "price_std": 1.158917304562552,
+        "subcategories": [
+          "Coloring Books and Surface Painting",
+          "Drawing Tools and Materials",
+          "Party and Home Games",
+          "Creative Kits and Crafts",
+          "Modeling and Sculpting Materials",
+          "Creative Workshops and Crafts",
+          "Picture and Photo Frame Making",
+          "Logic Games and Puzzle Sets",
+          "Model Kits and Construction Sets",
+          "Esoteric Practices and Divination",
+          "Musical Instruments and Accessories"
+        ]
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "item_count": 1215,
+        "avg_price": -2.693207722501502,
+        "price_std": 1.5637435044931352,
+        "subcategories": [
+          "Automotive Products and Accessories",
+          "Car Parts",
+          "Automotive Oils and Chemical Products",
+          "Car Tires and Wheel Rims",
+          "Car Tools",
+          "Audio Systems and Equipment",
+          "Vehicle Batteries and Power Components",
+          "Additional Automotive Products",
+          "Electronic Devices for Cars"
+        ]
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "item_count": 995,
+        "avg_price": -3.408851222287549,
+        "price_std": 1.4250916511132494,
+        "subcategories": [
+          "Parapharmaceutical Products",
+          "Dietary Supplements and Vitamins",
+          "Medical Equipment and Devices",
+          "Medical Devices and Disposable Supplies",
+          "Hygiene Products",
+          "Pharmaceutical Products",
+          "Health Recovery Equipment and Products",
+          "Orthopedic Products and Items",
+          "Optical Instruments and Accessories"
+        ]
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "item_count": 932,
+        "avg_price": -2.7939398635986503,
+        "price_std": 1.359873215281761,
+        "subcategories": [
+          "Peripheral Devices and Accessories",
+          "TV Panels and Components",
+          "Portable Audio Electronics",
+          "Portable Electronics",
+          "Gaming Electronic Devices",
+          "Networking Devices and Communications",
+          "PCs and Peripheral Devices",
+          "Mobile Devices and Electronic Accessories",
+          "Electronic and Digital Goods",
+          "Office Equipment",
+          "Photo and Video Equipment",
+          "Remote-Controlled Toys and 3D Modeling"
+        ]
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "item_count": 822,
+        "avg_price": -0.8205060921996351,
+        "price_std": 1.6329082724003714,
+        "subcategories": [
+          "Heaters, Air Conditioners, and Humidifiers",
+          "Beverage Preparation Appliances",
+          "Home Appliances",
+          "Compact Kitchen Appliances",
+          "Kitchen Appliances for Chopping and Mixing",
+          "Home Care and Health Appliances",
+          "Large Kitchen Appliances",
+          "Smart Home Systems",
+          "Built-In Household Appliances"
+        ]
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "item_count": 664,
+        "avg_price": -3.116935694660601,
+        "price_std": 1.5652307233663683,
+        "subcategories": [
+          "Water Supply Systems and Equipment",
+          "Hand and Power Tools",
+          "Ventilation and Air Exchange Systems",
+          "Mounting Components",
+          "Construction and Repair Materials",
+          "Electrical Components and Devices",
+          "Plumbing Equipment",
+          "Heating Systems",
+          "Door/Window Structures, Stairs, and Components"
+        ]
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "item_count": 325,
+        "avg_price": -3.2488913166964224,
+        "price_std": 1.1688250974418068,
+        "subcategories": [
+          "Children's Books and Literature",
+          "Educational and Instructional Materials",
+          "Scientific and Educational Literature",
+          "Personal Growth",
+          "Graphic Novels and Comics",
+          "Literary Fiction Works",
+          "Home and Hobby Goods"
+        ]
+      },
+      {
+        "category": "Footwear of All Types",
+        "item_count": 219,
+        "avg_price": -1.7498773561899905,
+        "price_std": 0.9819321519742304,
+        "subcategories": [
+          "Men's Footwear",
+          "Women's Footwear",
+          "Boys' Children's Footwear",
+          "Girls' Children's Footwear"
+        ]
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "item_count": 119,
+        "avg_price": -0.5944464755957249,
+        "price_std": 1.8341502337106144,
+        "subcategories": [
+          "Soft Sofas, Armchairs, and Interior Elements",
+          "Living Room and Lounge Interior Elements",
+          "Outdoor Furniture",
+          "Bedroom Furniture Sets",
+          "Office and Computer Zone Furniture",
+          "Plumbing Kits and Bathroom Furniture",
+          "Cabinets and Storage Systems",
+          "Hallway and Entryway Furniture",
+          "Kitchen Sets and Interior Elements",
+          "Children's Room Furniture and Accessories"
+        ]
+      }
+    ],
+    "total_categories": 20,
+    "top_categories": [
+      {
+        "category": "Foodstuffs and Beverages",
+        "item_count": 160128,
+        "avg_price": -3.98933110084902,
+        "price_std": 1.2332235546490469,
+        "subcategories": [
+          "Sweet Desserts and Confectionery",
+          "Frozen Food Products",
+          "Ready-to-Eat Food Products",
+          "Bakery Products",
+          "Fresh Vegetables, Fruits, and Greens",
+          "Snacks and Munchies",
+          "Cheese Products",
+          "Beverages: Tea, Coffee, Cocoa",
+          "Dairy Products and Eggs",
+          "Seafood and Fish",
+          "Long-Term Storage Foods and Canned Goods",
+          "Grains, Pasta, and Flour Products",
+          "Beverages and Drinks",
+          "Meat and Sausage Products",
+          "Meat, Poultry, and Semi-Finished Products",
+          "Culinary Additives and Seasonings",
+          "Healthy and Dietary Foods",
+          "Alcoholic Beverages and Related Products"
+        ]
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "item_count": 22998,
+        "avg_price": -3.2509466776369536,
+        "price_std": 0.9553893452908828,
+        "subcategories": [
+          "Personal Hygiene Products",
+          "Image Creation Cosmetics",
+          "Perfumes and Aromatic Products",
+          "Body Skin Hygiene and Care Products",
+          "Nail and Foot Care",
+          "Dental and Gum Hygiene Products",
+          "Facial Cosmetics and Care Products",
+          "Hair Care Products",
+          "Men's Grooming Products"
+        ]
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "item_count": 17738,
+        "avg_price": -3.42981698343139,
+        "price_std": 1.5907607111084916,
+        "subcategories": [
+          "Storage and Transport Containers",
+          "Kitchen Utensils and Cookware",
+          "Flowers and Plants",
+          "Decorative Items",
+          "Garden, Vegetable Garden, and Country House Supplies",
+          "Fabric Products and Textiles",
+          "Lamps and Lighting Fixtures",
+          "Sauna and Steam Bath Supplies"
+        ]
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "item_count": 8339,
+        "avg_price": -3.4438856500470605,
+        "price_std": 1.5437845679516549,
+        "subcategories": [
+          "Food Products",
+          "Children's Games and Toys",
+          "Diapers and Hygiene Products",
+          "Creative Kits for Children",
+          "Active Recreation and Travel Goods",
+          "Products and Accessories for Pregnant Women and Mothers"
+        ]
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "item_count": 7731,
+        "avg_price": -3.3169565061252047,
+        "price_std": 1.1208789966614052,
+        "subcategories": [
+          "Cleaning and Detergent Products",
+          "Laundry Detergents and Cleaning Products",
+          "Air Fresheners and Odor Neutralizers",
+          "Body Care Cosmetics and Products",
+          "Pest and Insect Control Products",
+          "Dishwasher Detergents"
+        ]
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "item_count": 4162,
+        "avg_price": -3.3495435380765337,
+        "price_std": 0.9925418239922627,
+        "subcategories": [
+          "Women's Clothing",
+          "Girls' Children's Clothing",
+          "Men's Clothing",
+          "Boys' Children's Clothing",
+          "Professional and Specialized Uniforms",
+          "Infant Clothing"
+        ]
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "item_count": 3710,
+        "avg_price": -4.03854747455448,
+        "price_std": 1.5998343038104974,
+        "subcategories": [
+          "Cat Supplies",
+          "Dog Supplies",
+          "Rodent and Ferret Supplies",
+          "Bird Supplies",
+          "Aquarium Fish and Reptile Supplies",
+          "Veterinary Medications and Products"
+        ]
+      },
+      {
+        "category": "Other",
+        "item_count": 3155,
+        "avg_price": -3.608832763797444,
+        "price_std": 1.5021750267820415,
+        "subcategories": [
+          "Other"
+        ]
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "item_count": 2983,
+        "avg_price": -4.648859614916985,
+        "price_std": 1.0622656609178551,
+        "subcategories": [
+          "Stationery Paper",
+          "Pens, Pencils, and Writing Materials",
+          "Paper Products and Stationery",
+          "Office Stationery Supplies",
+          "Stationery Folders, Files, and Covers",
+          "Drafting Tools",
+          "Educational and Office Boards",
+          "Document and Business Card Organizers"
+        ]
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "item_count": 1810,
+        "avg_price": -3.008139078867544,
+        "price_std": 1.6147714582495019,
+        "subcategories": [
+          "Hair Styling Products and Accessories",
+          "Accessories for Storing Small Items and Documents",
+          "Bags, Backpacks, and Travel Accessories",
+          "Eyeglasses and Accessories",
+          "Hats, Scarves, and Shawls",
+          "Gloves, Mittens, and Accessories",
+          "Jewelry and Costume Jewelry",
+          "Business Accessories",
+          "Umbrellas and Accessories",
+          "Clothing Accessories",
+          "Wrist, Wall, and Other Watches"
+        ]
+      }
+    ],
+    "total_items_with_category": 240586,
+    "items_without_category": 9585
+  },
+  "brands_analysis": {
+    "total_brands": 7,
+    "premium_brands": [],
+    "midrange_brands": [],
+    "budget_brands": [
+      {
+        "brand_id": 25989,
+        "product_count": 14965,
+        "avg_price": -3.256462882405422,
+        "categories": [
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          null,
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Office Supplies and Educational Materials",
+          "Home Improvement and Countryside Retreat Essentials",
+          "Cleaning Supplies and Everyday Household Items",
+          "Children's Products and Childcare Items",
+          "Pharmaceuticals and Medical Supplies",
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Other",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Hobby, Creative, and Leisure Products",
+          "Foodstuffs and Beverages",
+          "Household Electrical Appliances",
+          "Electronic Devices and Gadgets",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          "Footwear of All Types",
+          "Home/Office Furniture and Interior Decor"
+        ]
+      },
+      {
+        "brand_id": 60434,
+        "product_count": 17661,
+        "avg_price": -3.355631126668926,
+        "categories": [
+          "Foodstuffs and Beverages",
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          "Printed Media: Publications, Textbooks, and Fiction",
+          "Hobby, Creative, and Leisure Products",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Children's Products and Childcare Items",
+          "Office Supplies and Educational Materials",
+          "Home Improvement and Countryside Retreat Essentials",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          null,
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Cleaning Supplies and Everyday Household Items",
+          "Other",
+          "Pharmaceuticals and Medical Supplies",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Electronic Devices and Gadgets",
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Household Electrical Appliances"
+        ]
+      },
+      {
+        "brand_id": 240838,
+        "product_count": 68219,
+        "avg_price": -3.4537868790723936,
+        "categories": [
+          "Children's Products and Childcare Items",
+          "Foodstuffs and Beverages",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Pharmaceuticals and Medical Supplies",
+          "Other",
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Cleaning Supplies and Everyday Household Items",
+          "Home Improvement and Countryside Retreat Essentials",
+          "Office Supplies and Educational Materials",
+          null,
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Household Electrical Appliances",
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          "Electronic Devices and Gadgets",
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Footwear of All Types",
+          "Hobby, Creative, and Leisure Products",
+          "Printed Media: Publications, Textbooks, and Fiction",
+          "Home/Office Furniture and Interior Decor"
+        ]
+      },
+      {
+        "brand_id": 65693,
+        "product_count": 42875,
+        "avg_price": -3.6287493537399125,
+        "categories": [
+          "Office Supplies and Educational Materials",
+          "Foodstuffs and Beverages",
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          "Home Improvement and Countryside Retreat Essentials",
+          "Children's Products and Childcare Items",
+          null,
+          "Cleaning Supplies and Everyday Household Items",
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Pharmaceuticals and Medical Supplies",
+          "Other",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Hobby, Creative, and Leisure Products",
+          "Electronic Devices and Gadgets",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Household Electrical Appliances",
+          "Home/Office Furniture and Interior Decor"
+        ]
+      },
+      {
+        "brand_id": 37799,
+        "product_count": 57656,
+        "avg_price": -4.153553651504835,
+        "categories": [
+          null,
+          "Foodstuffs and Beverages",
+          "Cleaning Supplies and Everyday Household Items",
+          "Children's Products and Childcare Items",
+          "Home Improvement and Countryside Retreat Essentials",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          "Other",
+          "Office Supplies and Educational Materials",
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Electronic Devices and Gadgets",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Pharmaceuticals and Medical Supplies",
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Hobby, Creative, and Leisure Products",
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Household Electrical Appliances",
+          "Footwear of All Types",
+          "Home/Office Furniture and Interior Decor",
+          "Printed Media: Publications, Textbooks, and Fiction"
+        ]
+      },
+      {
+        "brand_id": 146468,
+        "product_count": 45176,
+        "avg_price": -4.164921540919067,
+        "categories": [
+          "Cleaning Supplies and Everyday Household Items",
+          "Foodstuffs and Beverages",
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Hobby, Creative, and Leisure Products",
+          "Children's Products and Childcare Items",
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Pharmaceuticals and Medical Supplies",
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Home Improvement and Countryside Retreat Essentials",
+          "Other",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          "Office Supplies and Educational Materials",
+          "Printed Media: Publications, Textbooks, and Fiction",
+          null,
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Electronic Devices and Gadgets",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Home/Office Furniture and Interior Decor",
+          "Household Electrical Appliances",
+          "Footwear of All Types"
+        ]
+      },
+      {
+        "brand_id": 48632,
+        "product_count": 3616,
+        "avg_price": -4.274173570241786,
+        "categories": [
+          "Foodstuffs and Beverages",
+          "Children's Products and Childcare Items",
+          null,
+          "Home Improvement and Countryside Retreat Essentials",
+          "Cleaning Supplies and Everyday Household Items",
+          "Cosmetics, Personal Care, and Health Maintenance Products",
+          "Sports Equipment, Gear, and Outdoor Activity Accessories",
+          "Outerwear, Casual Apparel, and Specialized Workwear",
+          "Office Supplies and Educational Materials",
+          "Pharmaceuticals and Medical Supplies",
+          "Other",
+          "Electronic Devices and Gadgets",
+          "Printed Media: Publications, Textbooks, and Fiction",
+          "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+          "Hobby, Creative, and Leisure Products",
+          "Construction and Renovation Materials, Tools, and Equipment",
+          "Home/Office Furniture and Interior Decor",
+          "Pet Supplies: Food, Accessories, and Grooming Products",
+          "Household Electrical Appliances",
+          "Automotive Accessories, Spare Parts, and Car Care Products",
+          "Footwear of All Types"
+        ]
+      }
+    ]
+  },
+  "auto_categories": {
+    "category_combinations": [
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Meat, Poultry, and Semi-Finished Products",
+        "count": 7016,
+        "avg_price": -2.9523375451512917,
+        "price_volatility": 0.8331001239133625
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Sauna and Steam Bath Supplies",
+        "count": 98,
+        "avg_price": -3.179054105421279,
+        "price_volatility": 0.912940805830087
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Drawing Tools and Materials",
+        "count": 250,
+        "avg_price": -3.889163832559393,
+        "price_volatility": 0.9229642397322015
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Drafting Tools",
+        "count": 75,
+        "avg_price": -4.906198177339351,
+        "price_volatility": 0.9616036741483186
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Musical Instruments and Accessories",
+        "count": 1,
+        "avg_price": -3.244722848204815,
+        "price_volatility": null
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Pens, Pencils, and Writing Materials",
+        "count": 1094,
+        "avg_price": -4.639276592911068,
+        "price_volatility": 1.0054247930471472
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Body Skin Hygiene and Care Products",
+        "count": 6020,
+        "avg_price": -3.3161803174098026,
+        "price_volatility": 0.8792394054974612
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Photo and Video Equipment",
+        "count": 1,
+        "avg_price": -2.708980650647855,
+        "price_volatility": null
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Cabinets and Storage Systems",
+        "count": 4,
+        "avg_price": -3.5954879353787343,
+        "price_volatility": 2.5239211727367983
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Facial Cosmetics and Care Products",
+        "count": 3151,
+        "avg_price": -3.2745192680338193,
+        "price_volatility": 1.053820537413052
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Seafood and Fish",
+        "count": 5513,
+        "avg_price": -3.1035501570595736,
+        "price_volatility": 1.2714354096132572
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Decorative Items",
+        "count": 2006,
+        "avg_price": -3.375132760048056,
+        "price_volatility": 1.3403024732807511
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Hallway and Entryway Furniture",
+        "count": 7,
+        "avg_price": -2.768594902855879,
+        "price_volatility": 1.4604185926568387
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Office Equipment",
+        "count": 1,
+        "avg_price": -3.3364094683282146,
+        "price_volatility": null
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "subcategory": "Men's Clothing",
+        "count": 980,
+        "avg_price": -3.3444057651616697,
+        "price_volatility": 1.1319579955250998
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "subcategory": "Pest and Insect Control Products",
+        "count": 474,
+        "avg_price": -3.8354128106174605,
+        "price_volatility": 1.0237644030087696
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Accessories for Storing Small Items and Documents",
+        "count": 128,
+        "avg_price": -3.679840657438586,
+        "price_volatility": 1.0881134708881732
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Office and Computer Zone Furniture",
+        "count": 15,
+        "avg_price": 0.34060274914836197,
+        "price_volatility": 1.4961149195364218
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "subcategory": "Veterinary Medications and Products",
+        "count": 12,
+        "avg_price": -3.594643497798722,
+        "price_volatility": 0.8010152721754904
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Flowers and Plants",
+        "count": 2925,
+        "avg_price": -4.780027910574218,
+        "price_volatility": 1.4911169650438056
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Fishing and Hunting Supplies",
+        "count": 20,
+        "avg_price": -2.3410093187863166,
+        "price_volatility": 1.8192895869313124
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "subcategory": "Air Fresheners and Odor Neutralizers",
+        "count": 482,
+        "avg_price": -3.4332208778896853,
+        "price_volatility": 0.8215469745876581
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Plumbing Equipment",
+        "count": 10,
+        "avg_price": -3.3514203663895237,
+        "price_volatility": 1.0500880592519666
+      },
+      {
+        "category": "Footwear of All Types",
+        "subcategory": "Girls' Children's Footwear",
+        "count": 30,
+        "avg_price": -2.18823506898584,
+        "price_volatility": 1.0246154830822145
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "subcategory": "Women's Clothing",
+        "count": 2690,
+        "avg_price": -3.3375373644472064,
+        "price_volatility": 0.872719346152129
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Beverages: Tea, Coffee, Cocoa",
+        "count": 6059,
+        "avg_price": -3.10877517893631,
+        "price_volatility": 1.175031456626289
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Jewelry and Costume Jewelry",
+        "count": 256,
+        "avg_price": -3.467527011840954,
+        "price_volatility": 0.8916719778120983
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Party and Home Games",
+        "count": 182,
+        "avg_price": -2.6227578035849857,
+        "price_volatility": 1.1806783720778706
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Creative Kits and Crafts",
+        "count": 254,
+        "avg_price": -2.507673455393192,
+        "price_volatility": 0.8917266892963341
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Portable Electronics",
+        "count": 11,
+        "avg_price": -2.4628859291245147,
+        "price_volatility": 0.6423795177953098
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Plumbing Kits and Bathroom Furniture",
+        "count": 2,
+        "avg_price": -4.342055314660758,
+        "price_volatility": 0.17457251175559949
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Vehicle Batteries and Power Components",
+        "count": 19,
+        "avg_price": -1.548801083773605,
+        "price_volatility": 1.4804626670283478
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "subcategory": "Food Products",
+        "count": 3362,
+        "avg_price": -4.313729175056555,
+        "price_volatility": 1.3367638151690335
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "subcategory": "Dishwasher Detergents",
+        "count": 289,
+        "avg_price": -1.8006566252572114,
+        "price_volatility": 0.9338406024091893
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Coloring Books and Surface Painting",
+        "count": 167,
+        "avg_price": -4.119982799434354,
+        "price_volatility": 0.8565656005451412
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Garden, Vegetable Garden, and Country House Supplies",
+        "count": 829,
+        "avg_price": -2.4182091539395163,
+        "price_volatility": 1.8476239365196845
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Graphic Novels and Comics",
+        "count": 6,
+        "avg_price": -1.3760051580375896,
+        "price_volatility": 1.8015182469010584
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Lamps and Lighting Fixtures",
+        "count": 698,
+        "avg_price": -3.504623668703614,
+        "price_volatility": 1.489668287499013
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Storage and Transport Containers",
+        "count": 1791,
+        "avg_price": -4.053027232519573,
+        "price_volatility": 1.05686188087833
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "subcategory": "Dog Supplies",
+        "count": 1299,
+        "avg_price": -3.524451748839424,
+        "price_volatility": 1.5509699098881349
+      },
+      {
+        "category": "Footwear of All Types",
+        "subcategory": "Women's Footwear",
+        "count": 99,
+        "avg_price": -1.5881678322266177,
+        "price_volatility": 0.9101272667851656
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Automotive Products and Accessories",
+        "count": 489,
+        "avg_price": -3.5381408969848747,
+        "price_volatility": 1.089942928087611
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Car Tools",
+        "count": 37,
+        "avg_price": -1.8675381097743913,
+        "price_volatility": 1.5832712572681593
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Water Supply Systems and Equipment",
+        "count": 115,
+        "avg_price": -2.816179687057978,
+        "price_volatility": 1.9087493795823818
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Stationery Paper",
+        "count": 293,
+        "avg_price": -4.513210348121338,
+        "price_volatility": 0.9435760461852045
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "subcategory": "Boys' Children's Clothing",
+        "count": 82,
+        "avg_price": -2.7425033738926365,
+        "price_volatility": 1.4658543006559375
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Hygiene Products",
+        "count": 257,
+        "avg_price": -3.431123098997226,
+        "price_volatility": 1.3004286352003376
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Sports Equipment",
+        "count": 57,
+        "avg_price": -2.4469938655870664,
+        "price_volatility": 1.1285339647221975
+      },
+      {
+        "category": "Footwear of All Types",
+        "subcategory": "Boys' Children's Footwear",
+        "count": 4,
+        "avg_price": -1.1046275619003818,
+        "price_volatility": 0.24864432620348828
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Dietary Supplements and Vitamins",
+        "count": 295,
+        "avg_price": -2.7341086868824247,
+        "price_volatility": 1.3969335928884017
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Hand and Power Tools",
+        "count": 198,
+        "avg_price": -2.9980227079457427,
+        "price_volatility": 1.569100144224198
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Soft Sofas, Armchairs, and Interior Elements",
+        "count": 7,
+        "avg_price": 1.2518784129568286,
+        "price_volatility": 1.70794048327085
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Ready-to-Eat Food Products",
+        "count": 8479,
+        "avg_price": -3.555664373073972,
+        "price_volatility": 0.9967968894879838
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Smart Home Systems",
+        "count": 10,
+        "avg_price": -0.40261349118550505,
+        "price_volatility": 1.1196849394886745
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Healthy and Dietary Foods",
+        "count": 149,
+        "avg_price": -3.8507895837946258,
+        "price_volatility": 0.9950140662796199
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Creative Workshops and Crafts",
+        "count": 91,
+        "avg_price": -3.544557559183416,
+        "price_volatility": 1.1201880218999027
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Document and Business Card Organizers",
+        "count": 6,
+        "avg_price": -3.5035066474062715,
+        "price_volatility": 1.503233391138619
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Culinary Additives and Seasonings",
+        "count": 6671,
+        "avg_price": -4.251395761848729,
+        "price_volatility": 1.1242495838394975
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "subcategory": "Active Recreation and Travel Goods",
+        "count": 7,
+        "avg_price": -0.7716361295687184,
+        "price_volatility": 1.0821097125495853
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Business Accessories",
+        "count": 1,
+        "avg_price": -3.1984791437269844,
+        "price_volatility": null
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Living Room and Lounge Interior Elements",
+        "count": 24,
+        "avg_price": -1.717831131450014,
+        "price_volatility": 0.7193264221477162
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Protein Supplements and Sports Nutrition",
+        "count": 289,
+        "avg_price": -4.231791211489443,
+        "price_volatility": 0.702708631292548
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "subcategory": "Infant Clothing",
+        "count": 32,
+        "avg_price": -2.4827783086011106,
+        "price_volatility": 0.7693758842819862
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Medical Equipment and Devices",
+        "count": 18,
+        "avg_price": -3.583496761712698,
+        "price_volatility": 1.0252722336628186
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Wrist, Wall, and Other Watches",
+        "count": 1,
+        "avg_price": null,
+        "price_volatility": null
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Roller Skates and Related Products",
+        "count": 49,
+        "avg_price": -0.19327556570936355,
+        "price_volatility": 0.5137438066521858
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Gaming Electronic Devices",
+        "count": 12,
+        "avg_price": -1.7568749386341083,
+        "price_volatility": 0.38760400951090557
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Bicycles and Cycling Accessories",
+        "count": 115,
+        "avg_price": -0.02721021273727364,
+        "price_volatility": 2.671678606859268
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Skateboards and Accessories",
+        "count": 12,
+        "avg_price": -1.8356849309828605,
+        "price_volatility": 1.40424781909309
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Outdoor Furniture",
+        "count": 37,
+        "avg_price": 0.22353905825508,
+        "price_volatility": 1.4661101219200114
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Pharmaceutical Products",
+        "count": 52,
+        "avg_price": -4.068839247725288,
+        "price_volatility": 1.168906787059961
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Ventilation and Air Exchange Systems",
+        "count": 4,
+        "avg_price": -2.6953635956834687,
+        "price_volatility": 0.5906886208167441
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Dental and Gum Hygiene Products",
+        "count": 2176,
+        "avg_price": -3.5243368658398877,
+        "price_volatility": 0.7619013837074763
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Educational and Office Boards",
+        "count": 9,
+        "avg_price": -4.194885970801235,
+        "price_volatility": 0.908842362789352
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Image Creation Cosmetics",
+        "count": 1619,
+        "avg_price": -2.7808044584052385,
+        "price_volatility": 0.8728430001010776
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Paper Products and Stationery",
+        "count": 1047,
+        "avg_price": -4.781153441830693,
+        "price_volatility": 1.0876837992260278
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Door/Window Structures, Stairs, and Components",
+        "count": 13,
+        "avg_price": -3.448561646020712,
+        "price_volatility": 0.1578627666969673
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Sports Play Complexes",
+        "count": 7,
+        "avg_price": -3.180105608868254,
+        "price_volatility": 1.0357744431261147
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Hair Care Products",
+        "count": 5391,
+        "avg_price": -2.9109397771699017,
+        "price_volatility": 0.696800296692498
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "subcategory": "Children's Games and Toys",
+        "count": 3171,
+        "avg_price": -2.940299423836081,
+        "price_volatility": 1.2887398490239268
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Home Care and Health Appliances",
+        "count": 81,
+        "avg_price": -1.2338379274368736,
+        "price_volatility": 0.9338748286266038
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Health Recovery Equipment and Products",
+        "count": 53,
+        "avg_price": -1.86447178142213,
+        "price_volatility": 0.9936963124354968
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Umbrellas and Accessories",
+        "count": 100,
+        "avg_price": -1.7791393708912173,
+        "price_volatility": 0.6313333042060516
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Children's Room Furniture and Accessories",
+        "count": 1,
+        "avg_price": -0.7038335747861163,
+        "price_volatility": null
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Portable Audio Electronics",
+        "count": 179,
+        "avg_price": -1.7040768148335037,
+        "price_volatility": 1.4638179166870982
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "subcategory": "Products and Accessories for Pregnant Women and Mothers",
+        "count": 2,
+        "avg_price": -3.161913741023814,
+        "price_volatility": 0.00043353455776768573
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Kitchen Appliances for Chopping and Mixing",
+        "count": 70,
+        "avg_price": -0.17292043856796285,
+        "price_volatility": 0.9681459160148587
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Heating Systems",
+        "count": 37,
+        "avg_price": -2.315421743608738,
+        "price_volatility": 1.7869305615303048
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Bedroom Furniture Sets",
+        "count": 19,
+        "avg_price": -1.0570490075772971,
+        "price_volatility": 1.4350832563479214
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "subcategory": "Girls' Children's Clothing",
+        "count": 340,
+        "avg_price": -3.5690003662733494,
+        "price_volatility": 1.169940874506692
+      },
+      {
+        "category": "Outerwear, Casual Apparel, and Specialized Workwear",
+        "subcategory": "Professional and Specialized Uniforms",
+        "count": 38,
+        "avg_price": -4.325315636566229,
+        "price_volatility": 1.038258567423202
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Built-In Household Appliances",
+        "count": 1,
+        "avg_price": -3.1945594122399132,
+        "price_volatility": null
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Beverages and Drinks",
+        "count": 10893,
+        "avg_price": -4.674292030166028,
+        "price_volatility": 0.7980400025499113
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Gloves, Mittens, and Accessories",
+        "count": 111,
+        "avg_price": -2.2853363263597632,
+        "price_volatility": 1.241730131300844
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Heaters, Air Conditioners, and Humidifiers",
+        "count": 123,
+        "avg_price": -0.7805920995252116,
+        "price_volatility": 1.6698247506120576
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Medical Devices and Disposable Supplies",
+        "count": 273,
+        "avg_price": -4.30317132287368,
+        "price_volatility": 1.0719562458026515
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "subcategory": "Body Care Cosmetics and Products",
+        "count": 470,
+        "avg_price": -3.9941347630234207,
+        "price_volatility": 0.9528315158100232
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Electronic and Digital Goods",
+        "count": 4,
+        "avg_price": -2.936999587001999,
+        "price_volatility": 2.628637309755912
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Stationery Folders, Files, and Covers",
+        "count": 110,
+        "avg_price": -4.296564724729456,
+        "price_volatility": 1.3166661114589626
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "subcategory": "Bird Supplies",
+        "count": 26,
+        "avg_price": -4.1185059719092525,
+        "price_volatility": 0.6073022607399773
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Mounting Components",
+        "count": 49,
+        "avg_price": -3.593724631030134,
+        "price_volatility": 1.3493682437112255
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Personal Hygiene Products",
+        "count": 2933,
+        "avg_price": -3.9664316102946247,
+        "price_volatility": 0.8605986828796719
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Fabric Products and Textiles",
+        "count": 1748,
+        "avg_price": -1.9807713171611099,
+        "price_volatility": 1.2340889853147057
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Optical Instruments and Accessories",
+        "count": 8,
+        "avg_price": null,
+        "price_volatility": null
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Remote-Controlled Toys and 3D Modeling",
+        "count": 1,
+        "avg_price": null,
+        "price_volatility": null
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "subcategory": "Laundry Detergents and Cleaning Products",
+        "count": 2748,
+        "avg_price": -2.794501516981016,
+        "price_volatility": 1.0112255735453664
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Compact Kitchen Appliances",
+        "count": 187,
+        "avg_price": -1.2976599096145416,
+        "price_volatility": 2.145656976808784
+      },
+      {
+        "category": "Home Improvement and Countryside Retreat Essentials",
+        "subcategory": "Kitchen Utensils and Cookware",
+        "count": 7643,
+        "avg_price": -3.1518984605963376,
+        "price_volatility": 1.3768496435329947
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Sports Protection and Gear",
+        "count": 15,
+        "avg_price": -1.9068470570567015,
+        "price_volatility": 1.5752707622525384
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Additional Automotive Products",
+        "count": 32,
+        "avg_price": -2.465367370528093,
+        "price_volatility": 1.5072576918839968
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Men's Grooming Products",
+        "count": 1001,
+        "avg_price": -2.708665532402849,
+        "price_volatility": 1.0776703625190474
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Modeling and Sculpting Materials",
+        "count": 212,
+        "avg_price": -3.6318196692529945,
+        "price_volatility": 0.9916818980149
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Large Kitchen Appliances",
+        "count": 13,
+        "avg_price": -2.9068900683788375,
+        "price_volatility": 1.6932514987513838
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Peripheral Devices and Accessories",
+        "count": 541,
+        "avg_price": -3.227968531367868,
+        "price_volatility": 1.0369414590710844
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "subcategory": "Diapers and Hygiene Products",
+        "count": 1581,
+        "avg_price": -2.456364010120511,
+        "price_volatility": 1.394334274770987
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Eyeglasses and Accessories",
+        "count": 192,
+        "avg_price": -2.4844540727283615,
+        "price_volatility": 0.6754292916731208
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Meat and Sausage Products",
+        "count": 14334,
+        "avg_price": -2.9284410737442843,
+        "price_volatility": 0.9841804582365402
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Sports Equipment and Weights",
+        "count": 18,
+        "avg_price": -2.8169530316649505,
+        "price_volatility": 1.5002796054230396
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Networking Devices and Communications",
+        "count": 20,
+        "avg_price": -3.9359482676531528,
+        "price_volatility": 1.7240575009947052
+      },
+      {
+        "category": "Children's Products and Childcare Items",
+        "subcategory": "Creative Kits for Children",
+        "count": 216,
+        "avg_price": -3.4833973769590614,
+        "price_volatility": 1.2713265345541027
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Scooters",
+        "count": 19,
+        "avg_price": 0.4685613334651237,
+        "price_volatility": 0.8957509933780619
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "subcategory": "Cat Supplies",
+        "count": 2321,
+        "avg_price": -4.3214580649202485,
+        "price_volatility": 1.5774494897643303
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Grains, Pasta, and Flour Products",
+        "count": 5682,
+        "avg_price": -4.431855604869053,
+        "price_volatility": 0.8175010177020015
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Beverage Preparation Appliances",
+        "count": 176,
+        "avg_price": -0.702202257313171,
+        "price_volatility": 1.1882716267791298
+      },
+      {
+        "category": "Other",
+        "subcategory": "Other",
+        "count": 3155,
+        "avg_price": -3.608832763797444,
+        "price_volatility": 1.5021750267820415
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Picture and Photo Frame Making",
+        "count": 6,
+        "avg_price": -2.619074365932457,
+        "price_volatility": 0.43183416761269594
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Racquet Sports Equipment",
+        "count": 37,
+        "avg_price": -3.1075262171028752,
+        "price_volatility": 1.0564666360645825
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Tourist Gear and Active Recreation",
+        "count": 310,
+        "avg_price": -2.1629196814787788,
+        "price_volatility": 1.4963822569887828
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Logic Games and Puzzle Sets",
+        "count": 87,
+        "avg_price": -3.759567229416721,
+        "price_volatility": 0.9562023536069555
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Literary Fiction Works",
+        "count": 5,
+        "avg_price": -0.5293279515675001,
+        "price_volatility": 1.9538203035297321
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Hair Styling Products and Accessories",
+        "count": 533,
+        "avg_price": -4.3264316510583365,
+        "price_volatility": 0.7310560592874085
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Snacks and Munchies",
+        "count": 4530,
+        "avg_price": -4.2279052768712235,
+        "price_volatility": 1.0228554392337563
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "PCs and Peripheral Devices",
+        "count": 51,
+        "avg_price": -2.06504747521426,
+        "price_volatility": 0.8684309313171826
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Car Parts",
+        "count": 182,
+        "avg_price": -2.794760298036512,
+        "price_volatility": 1.024527481328746
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Running Gear",
+        "count": 40,
+        "avg_price": -2.9612818908760112,
+        "price_volatility": 1.13727554325231
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "subcategory": "Aquarium Fish and Reptile Supplies",
+        "count": 11,
+        "avg_price": -4.0036447982422265,
+        "price_volatility": 1.9763079259431051
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Long-Term Storage Foods and Canned Goods",
+        "count": 4203,
+        "avg_price": -3.6925544637180985,
+        "price_volatility": 0.7569691695680009
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Esoteric Practices and Divination",
+        "count": 1,
+        "avg_price": -2.943920712377186,
+        "price_volatility": null
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Home and Hobby Goods",
+        "count": 1,
+        "avg_price": null,
+        "price_volatility": null
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Water Sports and Recreational Products",
+        "count": 235,
+        "avg_price": -1.8331023072982857,
+        "price_volatility": 1.747977313392486
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Electronic Devices for Cars",
+        "count": 9,
+        "avg_price": -2.7033751885423123,
+        "price_volatility": 0.7681062132723783
+      },
+      {
+        "category": "Footwear of All Types",
+        "subcategory": "Men's Footwear",
+        "count": 86,
+        "avg_price": -1.8651396751346982,
+        "price_volatility": 1.031784825775908
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Cheese Products",
+        "count": 6004,
+        "avg_price": -3.180348501590652,
+        "price_volatility": 1.1455678695995108
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Bags, Backpacks, and Travel Accessories",
+        "count": 280,
+        "avg_price": -1.3589891298172367,
+        "price_volatility": 2.188197935760989
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Electrical Components and Devices",
+        "count": 89,
+        "avg_price": -2.5430685210450945,
+        "price_volatility": 0.9480881861899355
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Sweet Desserts and Confectionery",
+        "count": 21644,
+        "avg_price": -3.743000690628859,
+        "price_volatility": 1.1556189806789292
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Clothing Accessories",
+        "count": 16,
+        "avg_price": -2.0903691133698947,
+        "price_volatility": 0.5205330708619038
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Personal Growth",
+        "count": 1,
+        "avg_price": -1.3725800239829384,
+        "price_volatility": null
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Perfumes and Aromatic Products",
+        "count": 244,
+        "avg_price": -2.1077033101348053,
+        "price_volatility": 1.5807285338605057
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Fresh Vegetables, Fruits, and Greens",
+        "count": 3751,
+        "avg_price": -3.144829813092544,
+        "price_volatility": 1.3803638199217723
+      },
+      {
+        "category": "Construction and Renovation Materials, Tools, and Equipment",
+        "subcategory": "Construction and Repair Materials",
+        "count": 149,
+        "avg_price": -3.9173636781749317,
+        "price_volatility": 1.2499751785212068
+      },
+      {
+        "category": "Pet Supplies: Food, Accessories, and Grooming Products",
+        "subcategory": "Rodent and Ferret Supplies",
+        "count": 41,
+        "avg_price": -4.229737377589746,
+        "price_volatility": 0.44497755428429286
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Automotive Oils and Chemical Products",
+        "count": 324,
+        "avg_price": -2.3455460508909995,
+        "price_volatility": 1.2480511520974968
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Bakery Products",
+        "count": 21650,
+        "avg_price": -5.194762010052386,
+        "price_volatility": 0.7651767933676356
+      },
+      {
+        "category": "Hobby, Creative, and Leisure Products",
+        "subcategory": "Model Kits and Construction Sets",
+        "count": 1,
+        "avg_price": -1.9841395274600657,
+        "price_volatility": null
+      },
+      {
+        "category": "Fashion Accessories, Tech Add-ons, and Style Enhancements",
+        "subcategory": "Hats, Scarves, and Shawls",
+        "count": 192,
+        "avg_price": -2.3701246950684243,
+        "price_volatility": 0.7990283252581707
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Car Tires and Wheel Rims",
+        "count": 122,
+        "avg_price": -0.6383375938806679,
+        "price_volatility": 2.043445556894757
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Parapharmaceutical Products",
+        "count": 12,
+        "avg_price": -3.094926790434665,
+        "price_volatility": 1.6433188844230475
+      },
+      {
+        "category": "Cleaning Supplies and Everyday Household Items",
+        "subcategory": "Cleaning and Detergent Products",
+        "count": 3268,
+        "avg_price": -3.6989375971435665,
+        "price_volatility": 0.9812654295715565
+      },
+      {
+        "category": "Pharmaceuticals and Medical Supplies",
+        "subcategory": "Orthopedic Products and Items",
+        "count": 27,
+        "avg_price": -3.781937587304455,
+        "price_volatility": 0.5777690016132162
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Scientific and Educational Literature",
+        "count": 13,
+        "avg_price": -3.838465207999558,
+        "price_volatility": 1.5332039344629331
+      },
+      {
+        "category": "Household Electrical Appliances",
+        "subcategory": "Home Appliances",
+        "count": 161,
+        "avg_price": -0.2956191129360833,
+        "price_volatility": 1.5518519975676917
+      },
+      {
+        "category": "Cosmetics, Personal Care, and Health Maintenance Products",
+        "subcategory": "Nail and Foot Care",
+        "count": 463,
+        "avg_price": -3.8458508134791076,
+        "price_volatility": 0.7499215363324652
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Alcoholic Beverages and Related Products",
+        "count": 360,
+        "avg_price": -3.7155265752944904,
+        "price_volatility": 1.4434502806444656
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Frozen Food Products",
+        "count": 10646,
+        "avg_price": -3.655270734183366,
+        "price_volatility": 1.1074160592483169
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Children's Books and Literature",
+        "count": 248,
+        "avg_price": -3.259159180745836,
+        "price_volatility": 1.0648949386258963
+      },
+      {
+        "category": "Automotive Accessories, Spare Parts, and Car Care Products",
+        "subcategory": "Audio Systems and Equipment",
+        "count": 1,
+        "avg_price": -1.9708779860283188,
+        "price_volatility": null
+      },
+      {
+        "category": "Foodstuffs and Beverages",
+        "subcategory": "Dairy Products and Eggs",
+        "count": 22544,
+        "avg_price": -4.6448045660336446,
+        "price_volatility": 0.6980173431872304
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "Mobile Devices and Electronic Accessories",
+        "count": 81,
+        "avg_price": -3.372842600495929,
+        "price_volatility": 1.0951230624789234
+      },
+      {
+        "category": "Home/Office Furniture and Interior Decor",
+        "subcategory": "Kitchen Sets and Interior Elements",
+        "count": 3,
+        "avg_price": -0.9071050923700391,
+        "price_volatility": 0.2420866168947983
+      },
+      {
+        "category": "Sports Equipment, Gear, and Outdoor Activity Accessories",
+        "subcategory": "Workout and Yoga Equipment",
+        "count": 66,
+        "avg_price": -2.6466771420954918,
+        "price_volatility": 1.1958473406585801
+      },
+      {
+        "category": "Electronic Devices and Gadgets",
+        "subcategory": "TV Panels and Components",
+        "count": 30,
+        "avg_price": -1.3197322577981387,
+        "price_volatility": 1.482231639736671
+      },
+      {
+        "category": "Printed Media: Publications, Textbooks, and Fiction",
+        "subcategory": "Educational and Instructional Materials",
+        "count": 51,
+        "avg_price": -3.5759381417717813,
+        "price_volatility": 0.9509094108371766
+      },
+      {
+        "category": "Office Supplies and Educational Materials",
+        "subcategory": "Office Stationery Supplies",
+        "count": 349,
+        "avg_price": -4.517711928358103,
+        "price_volatility": 1.1021064306980946
+      }
+    ],
+    "price_clusters": {
+      "status": "skipped_due_to_invalid_prices"
+    }
+  },
+  "price_segments": {
+    "status": "invalid_prices"
+  }
+}

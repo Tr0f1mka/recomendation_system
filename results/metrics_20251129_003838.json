@@ -1,0 +1,87 @@
+{
+  "coverage": {
+    "user_coverage_rate": 1.0,
+    "total_users_covered": 605,
+    "avg_recommendations_per_user": 4.0,
+    "users_with_multiple_recommendations": 605,
+    "coverage_quality": "high"
+  },
+  "relevance": {
+    "avg_match_score": 1.0,
+    "avg_final_score": 0.812,
+    "high_confidence_rate": 1.0,
+    "confidence_distribution": {
+      "very_high": 2420,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "relevance_quality": "high"
+  },
+  "diversity": {
+    "unique_products_recommended": 4,
+    "product_diversity_score": 0.002,
+    "diversity_index": 0.75,
+    "product_type_distribution": [
+      {
+        "product_type": "premium_cards",
+        "count": 605,
+        "percentage": 0.25
+      },
+      {
+        "product_type": "investment",
+        "count": 605,
+        "percentage": 0.25
+      },
+      {
+        "product_type": "savings",
+        "count": 605,
+        "percentage": 0.25
+      },
+      {
+        "product_type": "credit_cards",
+        "count": 605,
+        "percentage": 0.25
+      }
+    ],
+    "diversity_quality": "high"
+  },
+  "business": {
+    "total_business_value": 1610.813,
+    "avg_business_value_per_rec": 0.666,
+    "premium_recommendations_rate": 0.5,
+    "expected_conversion_rate": 0.244,
+    "estimated_revenue_impact": {
+      "estimated_total_impact": 36300000.0,
+      "estimated_impact_per_user": 60000.0,
+      "impact_confidence": "high"
+    },
+    "business_impact": "high"
+  },
+  "distribution": {
+    "score_distribution": {
+      "mean": 0.812,
+      "std": 0.074,
+      "min": 0.7,
+      "max": 0.9,
+      "q25": 0.8,
+      "q75": 0.85
+    },
+    "user_distribution": {
+      "avg_recs_per_user": 4.0,
+      "max_recs_to_user": 4.0,
+      "users_with_1_rec": 0,
+      "users_with_3plus_recs": 605
+    }
+  },
+  "overall_score": {
+    "overall_score": 0.95,
+    "quality_rating": "excellent",
+    "component_scores": {
+      "coverage": 1.0,
+      "relevance": 1.0,
+      "diversity": 0.75,
+      "business": 1.0
+    }
+  }
+}

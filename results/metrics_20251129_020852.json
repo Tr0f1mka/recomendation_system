@@ -1,0 +1,102 @@
+{
+  "coverage": {
+    "user_coverage_rate": 1.0,
+    "total_users_covered": 1000,
+    "avg_recommendations_per_user": 3.0,
+    "users_with_multiple_recommendations": 1000,
+    "coverage_quality": "high"
+  },
+  "relevance": {
+    "avg_match_score": 0.5,
+    "avg_final_score": 0.589,
+    "high_confidence_rate": 0,
+    "confidence_distribution": {
+      "very_high": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 3000
+    },
+    "relevance_quality": "medium"
+  },
+  "diversity": {
+    "unique_products_recommended": 25,
+    "product_diversity_score": 0.008,
+    "diversity_index": 0.792,
+    "product_type_distribution": [
+      {
+        "product_type": "premium_cards",
+        "count": 219,
+        "percentage": 0.073
+      },
+      {
+        "product_type": "deposits",
+        "count": 844,
+        "percentage": 0.2813333333333333
+      },
+      {
+        "product_type": "savings_accounts",
+        "count": 619,
+        "percentage": 0.20633333333333334
+      },
+      {
+        "product_type": "premium_services",
+        "count": 237,
+        "percentage": 0.079
+      },
+      {
+        "product_type": "debit_cards",
+        "count": 792,
+        "percentage": 0.264
+      },
+      {
+        "product_type": "investment_funds",
+        "count": 167,
+        "percentage": 0.05566666666666667
+      },
+      {
+        "product_type": "credit_cards",
+        "count": 122,
+        "percentage": 0.04066666666666666
+      }
+    ],
+    "diversity_quality": "high"
+  },
+  "business": {
+    "total_business_value": 1336.061,
+    "avg_business_value_per_rec": 0.445,
+    "premium_recommendations_rate": 0.288,
+    "expected_conversion_rate": 0.177,
+    "estimated_revenue_impact": {
+      "estimated_total_impact": 19755000.0,
+      "estimated_impact_per_user": 19755.0,
+      "impact_confidence": "medium"
+    },
+    "business_impact": "medium"
+  },
+  "distribution": {
+    "score_distribution": {
+      "mean": 0.589,
+      "std": 0.137,
+      "min": 0.465,
+      "max": 0.882,
+      "q25": 0.485,
+      "q75": 0.678
+    },
+    "user_distribution": {
+      "avg_recs_per_user": 3.0,
+      "max_recs_to_user": 3.0,
+      "users_with_1_rec": 0,
+      "users_with_3plus_recs": 1000
+    }
+  },
+  "overall_score": {
+    "overall_score": 0.761,
+    "quality_rating": "excellent",
+    "component_scores": {
+      "coverage": 1.0,
+      "relevance": 0.5,
+      "diversity": 0.792,
+      "business": 0.89
+    }
+  }
+}

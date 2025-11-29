@@ -1,0 +1,87 @@
+{
+  "coverage": {
+    "user_coverage_rate": 1.0,
+    "total_users_covered": 1000,
+    "avg_recommendations_per_user": 3.0,
+    "users_with_multiple_recommendations": 1000,
+    "coverage_quality": "high"
+  },
+  "relevance": {
+    "avg_match_score": 0.5,
+    "avg_final_score": 0.634,
+    "high_confidence_rate": 0,
+    "confidence_distribution": {
+      "very_high": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 3000
+    },
+    "relevance_quality": "medium"
+  },
+  "diversity": {
+    "unique_products_recommended": 7,
+    "product_diversity_score": 0.002,
+    "diversity_index": 0.724,
+    "product_type_distribution": [
+      {
+        "product_type": "savings",
+        "count": 623,
+        "percentage": 0.20766666666666667
+      },
+      {
+        "product_type": "premium_cards",
+        "count": 1050,
+        "percentage": 0.35
+      },
+      {
+        "product_type": "investment",
+        "count": 422,
+        "percentage": 0.14066666666666666
+      },
+      {
+        "product_type": "credit_cards",
+        "count": 905,
+        "percentage": 0.3016666666666667
+      }
+    ],
+    "diversity_quality": "high"
+  },
+  "business": {
+    "total_business_value": 1639.138,
+    "avg_business_value_per_rec": 0.546,
+    "premium_recommendations_rate": 0.491,
+    "expected_conversion_rate": 0.19,
+    "estimated_revenue_impact": {
+      "estimated_total_impact": 25977000.0,
+      "estimated_impact_per_user": 25977.0,
+      "impact_confidence": "high"
+    },
+    "business_impact": "medium"
+  },
+  "distribution": {
+    "score_distribution": {
+      "mean": 0.634,
+      "std": 0.111,
+      "min": 0.524,
+      "max": 0.887,
+      "q25": 0.543,
+      "q75": 0.704
+    },
+    "user_distribution": {
+      "avg_recs_per_user": 3.0,
+      "max_recs_to_user": 3.0,
+      "users_with_1_rec": 0,
+      "users_with_3plus_recs": 1000
+    }
+  },
+  "overall_score": {
+    "overall_score": 0.77,
+    "quality_rating": "excellent",
+    "component_scores": {
+      "coverage": 1.0,
+      "relevance": 0.5,
+      "diversity": 0.724,
+      "business": 1.0
+    }
+  }
+}
